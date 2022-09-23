@@ -6,7 +6,7 @@
           flat
           dense
           round
-          icon="menu"
+          icon="las la-bars"
           aria-label="Menu"
           @click="toggleLeftDrawer"
         />
@@ -53,45 +53,21 @@ const linksList = [
   {
     title: 'Docs',
     caption: 'quasar.dev',
-    icon: 'school',
+    icon: 'las la-graduation-cap',
     link: 'https://quasar.dev'
   },
   {
-    title: 'Github',
-    caption: 'github.com/quasarframework',
-    icon: 'code',
-    link: 'https://github.com/quasarframework'
+    title: 'Typography',
+    caption: 'Typography in Quasar',
+    icon: 'las la-align-left',
+    link: 'typography'
   },
   {
-    title: 'Discord Chat Channel',
-    caption: 'chat.quasar.dev',
-    icon: 'chat',
-    link: 'https://chat.quasar.dev'
+    title: 'Flex Layout',
+    caption: 'Flex styles',
+    icon: 'las la-layer-group',
+    link: 'flex'
   },
-  {
-    title: 'Forum',
-    caption: 'forum.quasar.dev',
-    icon: 'record_voice_over',
-    link: 'https://forum.quasar.dev'
-  },
-  {
-    title: 'Twitter',
-    caption: '@quasarframework',
-    icon: 'rss_feed',
-    link: 'https://twitter.quasar.dev'
-  },
-  {
-    title: 'Facebook',
-    caption: '@QuasarFramework',
-    icon: 'public',
-    link: 'https://facebook.quasar.dev'
-  },
-  {
-    title: 'Quasar Awesome',
-    caption: 'Community Quasar projects',
-    icon: 'favorite',
-    link: 'https://awesome.quasar.dev'
-  }
 ]
 
 export default defineComponent({
