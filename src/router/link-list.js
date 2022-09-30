@@ -17,4 +17,10 @@ export const linksList = [
       icon: 'las la-layer-group',
       link: 'flex'
     },
+    {
+      title: 'Dialogs',
+      caption: 'Alerts, dialogs and confirmations',
+      icon: 'las la-window-minimize',
+      link: 'dialogs'
+    },
   ]

@@ -6,7 +6,8 @@ const routes = [
     children: [
       { path: '', component: () => import('pages/IndexPage.vue') },
       { path: 'typography', name: 'typography', component: () => import('src/pages/TypographyPage.vue') },
-      { path: 'flex', name: 'flex', component: () => import('src/pages/FlexPage.vue') }
+      { path: 'flex', name: 'flex', component: () => import('src/pages/FlexPage.vue') },
+      { path: 'dialogs', name: 'dialogs', component: () => import('src/pages/DialogsPage.vue') }
     ]
   },
 
